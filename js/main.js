@@ -96,11 +96,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>${card.title}</h3>
                <ul class="ul-info">
                 <li>
-                <img src="/img/heart.svg" alt="like">
+                <img src="./img/heart.svg" alt="like">
                  <p>${card.like}</p>
                  </li>
                  <li>
-                <img src="/img/comment.svg" alt="comment">
+                <img src="./img/comment.svg" alt="comment">
                 <p>${card.comment}</p>
                 </li>
                 </ul>
@@ -109,11 +109,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h3>${card.date}</h3>
                 <ul class="ul-info">
                 <li>
-                <img src="/img/heart.svg" alt="like">
+                <img src="./img/heart.svg" alt="like">
                  <p>${card.likeTwo}</p>
                  </li>
                  <li>
-                <img src="/img/comment.svg" alt="comment">
+                <img src="./img/comment.svg" alt="comment">
                 <p>${card.commentTwo}</p>
                 </li>
                 </ul>
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // LOAD DATA
     // =========================
 
-    fetch('/cards.json')
+    fetch('./cards.json')
         .then(res => res.json())
         .then(data => {
 
