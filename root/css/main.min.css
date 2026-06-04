@@ -182,7 +182,7 @@ body::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: url("./img/bg1.svg") no-repeat top center;
+    background: url("../img/bg1.svg") no-repeat top center;
     background-size: contain;
     width: 48%;
     top: 0;
@@ -201,7 +201,7 @@ body::before {
     right: 0;
     bottom: 80px;
 
-    background: url("./img/bg2.svg") no-repeat center;
+    background: url("../img/bg2.svg") no-repeat center;
     background-size: contain;
 
     pointer-events: none;
@@ -549,6 +549,13 @@ body::before {
         justify-content: center;
         gap: 15px;
     }
+
+
+    body::before {
+        width: 90%;
+    }
+
+
 }
 
 
