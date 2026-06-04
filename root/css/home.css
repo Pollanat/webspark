@@ -338,6 +338,11 @@ color: rgba(146, 146, 146, 1);
 }
 
 @media only screen and (max-width: 600px) {
+    .section_one .content .cards.grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px 8px;
+    }
     .section_one .content .cards.list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
