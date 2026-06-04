@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c33632f-3003-4de5-bb56-f621a0711960" name="Changes" comment="new adaptive">
+    <list default="true" id="5c33632f-3003-4de5-bb56-f621a0711960" name="Changes" comment="new adaptive1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/root/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/root/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/root/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/root/css/main.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1780603911873</updated>
       <workItem from="1780603912993" duration="2293000" />
-      <workItem from="1780606371525" duration="1316000" />
+      <workItem from="1780606371525" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -133,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780607399741</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new adaptive1">
+      <option name="closed" value="true" />
+      <created>1780607701898</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780607701898</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +166,7 @@
     <MESSAGE value="main fix" />
     <MESSAGE value="new" />
     <MESSAGE value="new adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="new adaptive" />
+    <MESSAGE value="new adaptive1" />
+    <option name="LAST_COMMIT_MESSAGE" value="new adaptive1" />
   </component>
 </project>
