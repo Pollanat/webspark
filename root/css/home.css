@@ -1,0 +1,343 @@
+/*section_one*/
+
+
+.section_one{
+    position: relative;
+    z-index: 40;
+    padding-top: 18px;
+}
+
+.section_one .content{
+    width: 100%;
+}
+.section_one .content .view-switcher{
+display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.section_one .content .view-switcher button{
+    all: unset;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    color: #c8c7c7;
+    transition: 0.2s ease;
+}
+.section_one .content .view-switcher button.active svg{
+    color: rgba(61, 142, 218, 1);
+}
+
+.section_one .content .view-switcher button.view-btn:hover {
+    color: rgba(61, 142, 218, 1);
+}
+
+.section_one .content .view-switcher button.view-btn.active {
+    color: rgba(61, 142, 218, 1);
+}
+
+
+
+
+
+.section_one .content .cards{
+    margin-top: 23px;
+}
+
+
+/*grid*/
+.section_one .content .cards.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 8px;
+}
+.section_one .content .cards.grid .card{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section_one .content .cards.grid .card .info{
+    padding: 16px 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.section_one .content .cards.grid .card .info .upload {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+.section_one .content .cards.grid .card .info .upload p:first-child{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.section_one .content .cards.grid .card .info .upload p:last-child{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.section_one .content .cards.grid .card .info .title{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.section_one .content .cards.grid .card .info .title h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+.section_one .content .cards.grid .card .info .title .ul-info{
+display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section_one .content .cards.grid .card .info .title .ul-info li{
+display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+}
+
+.section_one .content .cards.grid .card .info .title .ul-info li img{
+    height: 18px;
+}
+.section_one .content .cards.grid .card .info .title .ul-info li p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+/*list*/
+.section_one .content .cards.list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.section_one .content .cards.list .card{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.section_one .content .cards.list .card img{
+    height: 86px;
+}
+.section_one .content .cards.list .card .info{
+    padding: 20px 30px;
+    display: flex;
+   flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.section_one .content .cards.list .card .info .upload{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 50px;
+}
+
+
+.section_one .content .cards.list .card .info .upload p:first-child{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.section_one .content .cards.list .card .info .upload p:last-child{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.section_one .content .cards.list .card .info .title{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section_one .content .cards.list .card .info .title h3{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+.section_one .content .cards.list .card .info .title .ul-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.section_one .content .cards.list .card .info .title .ul-info li{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+}
+
+.section_one .content .cards.list .card .info .title .ul-info li img{
+    height: 18px;
+}
+.section_one .content .cards.list .card .info .title .ul-info li p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.cards {
+    transition: all 0.3s ease;
+}
+
+
+.card {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.35s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+.button-load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+.load-more {
+    background: transparent;
+    border: 1px solid rgba(146, 146, 146, 1);
+    padding: 15px 40px;
+
+    outline: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 11px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -3%;
+color: rgba(146, 146, 146, 1);
+    transition: all 0.2s ease;
+}
+
+.load-more:hover {
+    background: rgba(146, 146, 146, 1);
+    color: #fff;
+    transform: scale(1.04);
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+}
+
+
